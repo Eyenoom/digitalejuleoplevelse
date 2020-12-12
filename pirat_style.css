@@ -1,0 +1,42 @@
+/* Color directory
+Blue - #64B6FF (Background color)
+White - #EEEAE4 (Text & Button color)
+Red - #CD0D24 (Button text color)
+
+
+
+Base styles */
+
+body {
+    background-color: #64B6FF;
+    text-align: center;
+    padding: 5%;
+    color: #EEEAE4;
+    font-family: 'Chewy', cursive;
+}
+
+.nextbutton {
+    background-color: #CD0D24;
+    width: fit-content;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.nextbutton__title {
+    font-size:30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Pirat_skan.html styles */
+
+.illustration {
+    width: 100%;
+}
+
+.pirat__titel {
+    font-size: 40px;
+}
+
