@@ -86,3 +86,21 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+/* skeleton_gift.html style */
+
+.skeleton {
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.hand__gift {
+    width: 30%;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+    padding-top: 50px;
+}
