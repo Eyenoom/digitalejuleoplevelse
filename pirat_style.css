@@ -79,3 +79,23 @@ body {
     margin: auto;
     padding-top: 50px;
 }
+
+/* pusle_1.html style */
+
+.bpusle {
+    width: 30%;
+}
+
+.puslebutton {
+    background-color: #EEEAE4;
+    color: #CD0D24;
+    width: fit-content;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.pusle__title {
+    font-size:30px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
