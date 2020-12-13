@@ -16,7 +16,8 @@ body {
 }
 
 .nextbutton {
-    background-color: #CD0D24;
+    background-color: #EEEAE4;
+    color: #CD0D24;
     width: fit-content;
     margin: auto;
     border-radius: 20px;
@@ -30,6 +31,14 @@ body {
     padding-bottom: 10px;
 }
 
+/* Pirat_intro.html styles */
+
+.nextbutton--grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+}
+
 /* Pirat_skan.html styles */
 
 .illustration {
@@ -38,6 +47,27 @@ body {
 
 .pirat__titel {
     font-size: 40px;
+}
+
+/* Pirat_qr.html styles */
+
+.qr__title {
+    font-size: 190px;
+    line-height: 0px;
+}
+
+.qr__billede {
+    width: 80%;
+}
+
+.qr__title2 {
+    font-size: 100px;
+}
+
+/* Pirat_angrib.html style */
+
+.angrib__billede {
+    width: 100%;
 }
 
 /* Pirat_1.html style */
