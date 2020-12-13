@@ -45,33 +45,10 @@ body {
 .svar {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
 }
 
-.svarbutton1 {
-    background-color: #EEEAE4;
-    color: #CD0D24;
-    width: fit-content;
-    margin: auto;
-    border-radius: 20px;
-}
-
-.svarbutton2 {
-    background-color: #EEEAE4;
-    color: #CD0D24;
-    width: fit-content;
-    margin: auto;
-    border-radius: 20px;
-}
-
-.svarbutton3 {
-    background-color: #EEEAE4;
-    color: #CD0D24;
-    width: fit-content;
-    margin: auto;
-    border-radius: 20px;
-}
-
-.svarbutton4 {
+.svarbutton {
     background-color: #EEEAE4;
     color: #CD0D24;
     width: fit-content;
@@ -81,8 +58,6 @@ body {
 
 .svarbutton__title {
     font-size:30px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
