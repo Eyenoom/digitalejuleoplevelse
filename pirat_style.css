@@ -40,3 +40,49 @@ body {
     font-size: 40px;
 }
 
+/* Pirat_1.html style */
+
+.svar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.svarbutton1 {
+    background-color: #EEEAE4;
+    color: #CD0D24;
+    width: fit-content;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.svarbutton2 {
+    background-color: #EEEAE4;
+    color: #CD0D24;
+    width: fit-content;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.svarbutton3 {
+    background-color: #EEEAE4;
+    color: #CD0D24;
+    width: fit-content;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.svarbutton4 {
+    background-color: #EEEAE4;
+    color: #CD0D24;
+    width: fit-content;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.svarbutton__title {
+    font-size:30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
