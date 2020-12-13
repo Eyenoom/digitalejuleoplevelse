@@ -11,7 +11,7 @@ body {
     background-color: #64B6FF;
     text-align: center;
     padding: 5%;
-    color: ;
+    color: #EEEAE4;
     font-family: 'Chewy', cursive;
 }
 
@@ -29,6 +29,14 @@ body {
     padding-right: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+/* Pirat_intro.html styles */
+
+.nextbutton--grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
 }
 
 /* Pirat_skan.html styles */
