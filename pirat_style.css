@@ -11,12 +11,13 @@ body {
     background-color: #64B6FF;
     text-align: center;
     padding: 5%;
-    color: #EEEAE4;
+    color: ;
     font-family: 'Chewy', cursive;
 }
 
 .nextbutton {
-    background-color: #CD0D24;
+    background-color: #EEEAE4;
+    color: #CD0D24;
     width: fit-content;
     margin: auto;
     border-radius: 20px;
