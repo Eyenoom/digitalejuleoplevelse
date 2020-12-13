@@ -49,6 +49,21 @@ body {
     font-size: 40px;
 }
 
+/* Pirat_qr.html styles */
+
+.qr__title {
+    font-size: 190px;
+    line-height: 0px;
+}
+
+.qr__billede {
+    width: 80%;
+}
+
+.qr__title2 {
+    font-size: 100px;
+}
+
 /* Pirat_1.html style */
 
 .svar {
