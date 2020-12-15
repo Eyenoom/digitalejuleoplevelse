@@ -1,0 +1,27 @@
+/* Color directory
+Blue - #FF0001(Background color)
+White - #EEEAE4 (Text & Button color)
+Red - #CD0D24 (Button text color)
+
+
+
+Base styles */
+
+body {
+    background-color: #FF0001;
+    text-align: center;
+    padding: 5%;
+    color: #EEEAE4;
+    font-family: 'Chewy', cursive;
+    background-image: url('lightleak.png');
+}
+.invite {
+    text-shadow: 2px 2px 8px #030303
+}
+
+.invite__title {
+    font-size:70px;
+    padding-left: 5px;
+    padding-right: 30px;
+    padding-top: 100px;
+}
