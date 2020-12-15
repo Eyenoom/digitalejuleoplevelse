@@ -42,6 +42,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 3fr;
     align-items: center;
+    margin-top: 15px;
 }
 
 /* Pirat_skan.html styles */
@@ -52,6 +53,10 @@ body {
 
 .pirat__titel {
     font-size: 40px;
+}
+
+.pirat_stortitel {
+    font-size: 70px;
 }
 
 /* Pirat_qr.html styles */
@@ -133,4 +138,83 @@ body {
     font-size:30px;
     padding-left: 40px;
     padding-right: 40px;
+}
+
+
+
+/* Media Query */
+
+/* TABLET VERSION */
+
+@media screen and (min-width: 750px) {
+    
+    .wrapper__intro {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+    
+    .nextbutton__title {
+        font-size:60px;
+    }
+    
+    .wrapper__skan {
+        display: grid;
+        grid-template-columns: 3fr 2fr;
+        align-items: center;
+    }
+
+    .wrapper__qr {
+        display: grid;
+        grid-template-areas:
+        "qr qr find"
+        "qr qr scan";
+    }
+
+    .qr__title {
+        grid-area: find;
+    }
+
+    .qr__billede {
+        grid-area: qr;
+    }
+
+    .qr__title2 {
+        grid-area: scan;
+    }
+
+    .wrapper__angrib {
+        display: grid;
+        grid-template-columns: 4fr 2fr;
+        align-items: center;
+    }
+
+    .wrapper__pirat_1 {
+        display: grid;
+        grid-template-columns: 5fr 3fr;
+        align-items: center;
+    }
+
+    .pirat {
+        width: 80%;
+    }
+
+    .wrapper__skeleton_1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .skeleton, .hand__gift {
+        width: 100%;
+    }
+
+    .wrapper__pusle_1 {
+        display: grid;
+        grid-template-columns: 3fr 2fr;
+        align-items: center;
+    }
+
+    .bpusle {
+        width: 80%;
+    }
 }
