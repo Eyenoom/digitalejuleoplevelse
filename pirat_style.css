@@ -45,6 +45,17 @@ body {
     margin-top: 15px;
 }
 
+.nextbutton__image {
+    width: 100px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.slider__image {
+    width: 60%;
+}
+
 /* Pirat_skan.html styles */
 
 .illustration {
@@ -82,11 +93,6 @@ body {
 
 /* Pirat_1.html style */
 
-.svar {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 50px;
-}
 
 .svarbutton {
     background-color: #EEEAE4;
@@ -189,11 +195,23 @@ body {
         align-items: center;
     }
 
+    .angrib__billede {
+        width: 70%;
+        justify-self: center;
+    }
+
     .wrapper__pirat_1 {
         display: grid;
         grid-template-columns: 5fr 3fr;
         align-items: center;
     }
+
+    .svar {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 50px;
+    }
+    
 
     .pirat {
         width: 80%;
