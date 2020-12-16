@@ -102,7 +102,7 @@ a {
     animation-duration: 2.0s;
 }
 
-/* Pirat_1.html style */
+/* Pirat_1/2.html style */
 
 .pirat {
     width: 80%;
@@ -110,10 +110,20 @@ a {
     animation-duration: 1.0s;
 }
 
+.pirat_hurt {
+    width: 80%;
+    animation: flash;
+    animation-duration: 1.0s;
+}
+
 .pirat_health {
     animation: pulse;
     animation-duration: 3.0s;
     animation-iteration-count: infinite;
+}
+
+.pirat__questions {
+    padding-bottom: 30px;
 }
 
 .svarbutton {
