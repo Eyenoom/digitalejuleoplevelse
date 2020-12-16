@@ -108,6 +108,21 @@ body {
     padding-right: 40px;
 }
 
+.svarbutton_wrong {
+    background-color: #EEEAE4;
+    color: #CD0D24;
+    width: fit-content;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.svarbutton_wrong:active {
+    background-color: #CD0D24;
+    color:#EEEAE4;
+    animation: shakeX; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s;
+}
+
 /* skeleton_gift.html style */
 
 .skeleton {
