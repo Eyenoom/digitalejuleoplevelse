@@ -54,6 +54,8 @@ a {
     padding-left: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
+    animation: tada;
+    animation-duration: 1.25s;
 }
 
 .slider__image {
@@ -88,10 +90,6 @@ a {
     line-height: 0px;
 }
 
-.qr__billede {
-    width: 80%;
-}
-
 .qr__title2 {
     font-size: 100px;
 }
@@ -108,6 +106,14 @@ a {
 
 .pirat {
     width: 80%;
+    animation: bounceInLeft;
+    animation-duration: 1.0s;
+}
+
+.pirat_health {
+    animation: pulse;
+    animation-duration: 3.0s;
+    animation-iteration-count: infinite;
 }
 
 .svarbutton {
@@ -150,11 +156,13 @@ a {
 }
 
 .hand__gift {
-    width: 30%;
+    width: 70%;
     display: grid;
     grid-template-columns: 1fr;
     margin: auto;
     padding-top: 50px;
+    animation: bounce;
+    animation-duration: 1.5s;
 }
 
 /* pusle_1.html style */
@@ -209,8 +217,8 @@ a {
     .wrapper__qr {
         display: grid;
         grid-template-areas:
-        "qr qr find"
-        "qr qr scan";
+        "qr find"
+        "qr scan";
     }
 
     .qr__title {
