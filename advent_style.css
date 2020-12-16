@@ -4,32 +4,38 @@ body {
     text-align: center;
     padding: 5%;
     font-family: 'Chewy', cursive;
+    background-image: url(assets/skattejagt.png);
+    background-repeat: none;
    
 }
-main{
-    border-style: dotted;
-    border-radius: 20px;
-    color: #CD0D24;
-}
+
+
 
 h1 {
+    color: #FF0000;
+    transform: rotate(-90deg);
     font-size:50px;
     position: relative;
     text-shadow: 2px 2px 8px #030303;
+    float: left;
 }
 
-image {
-    z-index: -1;
+h2 {
+    display: grid;
+    float: left;
+    grid-gap:space;
+
 }
-.advent {
-    color: #CD0D24;
-    border-style: dotted;
-    border-radius: 20px;
+
+a{
+    text-decoration: none;
 }
+
+
 .kapitelbutton__title {
     
         color: #219A4D;
-        font-size:30px;
+        font-size:50px;
         padding-left: 40px;
         padding-right: 40px;
         font-size: 25;
