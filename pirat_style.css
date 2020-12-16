@@ -260,8 +260,7 @@ a {
         grid-template-columns: 3fr 2fr;
         align-items: center;
     }
-
-    .bpusle {
-        width: 80%;
+    
+    .puzzle_pieces {
+        margin-right: 20px;
     }
-}
