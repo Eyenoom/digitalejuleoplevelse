@@ -74,6 +74,13 @@ a {
     font-size: 70px;
 }
 
+.skan_img {
+    width: 50%;
+    animation: swing;
+    animation-duration: 5.0s;
+    animation-iteration-count: infinite;
+}
+
 /* Pirat_qr.html styles */
 
 .qr__title {
