@@ -15,6 +15,10 @@ body {
     font-family: 'Chewy', cursive;
 }
 
+a {
+    text-decoration: none;
+}
+
 .nextbutton {
     background-color: #EEEAE4;
     color: #CD0D24;
@@ -120,7 +124,7 @@ body {
     background-color: #CD0D24;
     color:#EEEAE4;
     animation: shakeX; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 1s;
+    animation-duration: 0.75s;
 }
 
 /* skeleton_gift.html style */
