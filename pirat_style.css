@@ -99,6 +99,9 @@ a {
 
 /* Pirat_1.html style */
 
+.pirat {
+    width: 80%;
+}
 
 .svarbutton {
     background-color: #EEEAE4;
@@ -149,8 +152,13 @@ a {
 
 /* pusle_1.html style */
 
+.puzzle_pieces {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 .bpusle {
-    width: 30%;
+    width: 100%;
 }
 
 .puslebutton {
