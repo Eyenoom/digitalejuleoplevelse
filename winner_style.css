@@ -4,11 +4,13 @@ body {
     padding: 5%;
     color: #EEEAE4;
     font-family: 'Chewy', cursive;
+    text-shadow: 2px 2px 2px #020202;
 }
 
 h2 {
     font-size: 50px;
     line-height: 40px;
+    text-shadow: 2px 2px 2px #020202;
 }
 
 .logo {

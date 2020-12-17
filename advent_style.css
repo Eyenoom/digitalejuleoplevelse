@@ -22,8 +22,7 @@ h1 {
 
 h2 {
     display: grid;
-    float: left;
-    grid-gap:space;
+    justify-content: center;
 
 }
 
