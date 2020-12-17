@@ -21,25 +21,27 @@ main {
     text-shadow: 2px 2px 8px #030303;
     font-size:50px;
     padding-top: 100px;
-animation: fadeIn ease 5s;
-  -webkit-animation: fadeIn ease 10s;
-  -moz-animation: fadeIn ease 10s;
-  -o-animation: fadeIn ease 10s;
-  -ms-animation: fadeIn ease 10s;
+animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
 }
 a {
     border-radius: 20px;
     color: #ffffff;
     background-color: #00000086;
+    width:fit-content;
+    margin:auto;
+    padding:20px;
     font-size:20px;
-    margin-top: 50px;
-    padding-top:auto;
-    padding-bottom: 0;
-    animation: fadeIn ease 5s;
-  -webkit-animation: fadeIn ease 10s;
-  -moz-animation: fadeIn ease 10s;
-  -o-animation: fadeIn ease 10s;
-  -ms-animation: fadeIn ease 10s;
+    margin-top: 25px;
+    text-decoration:none;
+    animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
    
 }
 @keyframes fadeIn {

@@ -1,7 +1,3 @@
-
-
-
-
 body {
     background-color: #CD0D24;
     text-align: center;
@@ -10,14 +6,26 @@ body {
     font-family: 'Chewy', cursive;
 }
 
+h2 {
+    font-size: 50px;
+    line-height: 40px;
+}
+
 .logo {
-    width: 15%;
+    width: 20%;
+    animation: fadeInUp;
+    animation-duration: 1.5s;
+    z-index: -1;
 }
 
 .pokal {
-    width: 25%;
+    width: 30%;
+    position: relative;
+    z-index: 2;
 }
 
 .scooter {
-    width: 20%;
+    width: 50%;
+    animation: bounceInLeft;
+    animation-duration: 1.0s;
 }
