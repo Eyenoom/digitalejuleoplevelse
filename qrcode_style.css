@@ -13,6 +13,10 @@ main{
     
 }
 
+img {
+    width: 80%;
+}
+
 h1 {
     color: #D4AE48;
     font-size:70px;
