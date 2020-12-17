@@ -1,43 +1,36 @@
 body {
     
-    background-color: #ffffff;
-    text-align: center;
-    padding: 5%;
-    font-family: 'Chewy', cursive;
-    background-image: url(assets/skattejagt.png);
+    background-image: url(assets/advent.png);
+    background-size: auto;
     background-repeat: none;
-   
+    font-family: 'Chewy', cursive;
+    
 }
-
 
 
 h1 {
     color: #FF0000;
     transform: rotate(-90deg);
+    border-top: 100px;
     font-size:50px;
-    position: relative;
+    position: block;
     text-shadow: 2px 2px 8px #030303;
-    float: left;
 }
-
-h2 {
-    display: grid;
-    justify-content: center;
-
-}
-
-a{
-    text-decoration: none;
+.container {
+    width: fit-content;
+    margin: auto;
+    
 }
 
 
 .kapitelbutton__title {
-    
-        color: #219A4D;
-        font-size:50px;
-        padding-left: 40px;
-        padding-right: 40px;
-        font-size: 25;
-        z-index: 10;
+    display: grid;
+    grid-gap: 50px;
+    color: #219A4D;
+    font-size:40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    z-index: 10;
+    text-align: center;
     }
     
