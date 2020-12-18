@@ -7,21 +7,10 @@ body {
     
 }
 
-
-h1 {
-    color: #FF0000;
-    transform: rotate(-90deg);
-    border-top: 100px;
-    font-size:50px;
-    position: block;
-    text-shadow: 2px 2px 8px #030303;
-}
 .container {
     width: fit-content;
     margin-top: 100px;
-    
 }
-
 
 .kapitelbutton__title {
     display: grid;
@@ -29,8 +18,5 @@ h1 {
     color: #219A4D;
     font-size:38px;
     padding-left: 40px;
-    padding-right: 40px;
-    z-index: 10;
-    text-align: center;
     }
     
